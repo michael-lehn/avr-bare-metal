@@ -1,8 +1,3 @@
-static void pinMode(unsigned char pin, unsigned char mode)
-{
-    *(volatile unsigned char *)(0x2A) = mode << pin;
-}
-
 static void setPinModes(unsigned char mode)
 {
     *(volatile unsigned char *)(0x2A) = mode;
@@ -16,9 +11,9 @@ static void digitalWriteAll(unsigned char val)
 static void delay_cycles(unsigned long count)
 {
     do {
-	// Compiler soll für count register verwenden 
-	asm volatile ("" : "+r"(count));
-	count = count - 1;
+        // Compiler soll für count register verwenden
+        asm volatile ("" : "+r"(count));
+        count = count - 1;
     } while (count != 0);
 }
 
@@ -31,9 +26,9 @@ int main()
 
     unsigned char pinValues = 0;
     while (1) {
-	// loop
-	pinValues ^= 1 << pin;
-	digitalWriteAll(pinValues);
-	delay_cycles((500000000 / 62.5 - 7) / 6);
+        // loop
+        pinValues ^= 1 << pin;
+        digitalWriteAll(pinValues);
+        delay_cycles((500000000 / 62.5 - 7) / 6);
     }
 }
