@@ -1,0 +1,56 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+\scalebox{1}{
+\begin{tikzpicture}[x=1pt, y=-1pt] % y-Achse nach unten
+    \useasboundingbox (-10,-10) rectangle (880,660);
+    % Koordinatensystem
+    \draw[->, thick] (0,0) -- (800,0) node[anchor=west] {$x$};
+    \draw[->, thick] (0,0) -- (0,600) node[anchor=south, pos=1.025] {$y$};
+
+    % Rechteck
+    \draw[gray, dashed] (100,50) rectangle (700,550);
+
+    % Mittelpunkt (x0, y0)
+    \filldraw[black] (400,300) circle (2pt) node[anchor=south west]
+	{\large $(x_0, y_0)$};
+
+    % Lemniskate von Gerono
+    \draw[blue, very thick, domain=0:360, samples=200, smooth, variable=\t]
+	plot({400 + 300*cos(\t)}, {300 + 250*sin(2*\t)});
+
+    \filldraw[orange] ({400 + 300*cos(1*115)}, {300 + 250*sin(2*115)}) circle (2pt)
+	node[anchor=south west]
+	{\large $(x(t), y(t))$};
+
+    \draw[->, red, very thick]
+	({400 + 300*cos(1*115)}, {300 + 250*sin(2*115)})
+	--
+	(
+	    {400 + 300*cos(1*115) - 15*sin(1*115)},
+	    {300 + 250*sin(2*115) + 15*cos(2*115)*2}
+	);
+
+    % Beschriftung Rechteck
+    \filldraw[black] (100,50) circle (2pt);
+    \filldraw[black] (100,550) circle (2pt);
+    \filldraw[black] (700,50) circle (2pt);
+    \filldraw[black] (700,550) circle (2pt);
+    \node[anchor=south east, gray] at (100,50)
+	{\large $(x_0-a, y_0-b)$};
+    \node[anchor=north east, gray] at (100,550)
+	{\large $(x_0-a, y_0+b)$};
+    \node[anchor=south west, gray] at (700,50)
+	{\large $(x_0+a, y_0-b)$};
+    \node[anchor=north west, gray] at (700,550)
+	{\large $(x_0+a, y_0+b)$};
+
+\end{tikzpicture}
+}
+\end{document}
+
