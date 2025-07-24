@@ -40,3 +40,9 @@ auf ganz praktische Weise. 😄
   - `led_pin2_delay.c` – C-Version mit gleichem Verhalten
 - **Makefiles** zur komfortablen Erzeugung von HEX-Dateien und für den Upload
 
+
+
+https://github.com/user-attachments/assets/ed1db76c-fee3-4abe-83a2-a54e4aef0f5a
+
+
+
