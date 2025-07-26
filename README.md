@@ -42,10 +42,7 @@ Die Inhalte dieses Repositories stehen – sofern nicht anders angegeben – unt
 [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Das bedeutet:
-- Du darfst die Materialien frei verwenden, teilen und anpassen – auch für kommerzielle Zwecke.
-- Voraussetzung ist, dass du den ursprünglichen Urheber nennst (z. B. durch Verweis auf dieses Repository) und deine abgeleiteten Werke unter derselben Lizenz veröffentlichst.
+- Die Materialien dürfen frei verwendet, geteilt und angepasst werden – auch für kommerzielle Zwecke.
+- Voraussetzung ist, dass der ursprüngliche Urheber genannt wird (z. B. durch Verweis auf dieses Repository) und abgeleitete Werke unter derselben Lizenz veröffentlicht werden.
 
-Bitte beachte: Einzelne Quelltexte oder externe Tools in diesem Projekt können ggf. eigenen Lizenzen unterliegen. Diese sind dann separat gekennzeichnet.
-
-
-
+Bitte beachten: Einzelne Quelltexte oder externe Tools in diesem Projekt können eigenen Lizenzbedingungen unterliegen. Diese sind dann separat gekennzeichnet.
