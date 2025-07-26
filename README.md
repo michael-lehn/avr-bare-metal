@@ -3,11 +3,12 @@
 **Arbeitsmaterial für das Praktikum „Anwendungsorientierte Softwareentwicklung“
 an der Universität Ulm**
 
-Diese Repository begleitet ein zweiwöchentliches, unbenotetes Praktikum für
-Studierende der Elektrotechnik im ersten Semester. Vorkenntnisse im
-Programmieren waren nicht erforderlich – allerdings hatten die Teilnehmenden
-zuvor die Vorlesung **Digitale Schaltungen** besucht und wussten daher, wie ein
-Prozessor intern grundsätzlich funktioniert. Genau daran knüpft das Projekt an.
+Diese Repository begleitet ein **wöchentliches, unbenotetes Praktikum** für
+Studierende der Elektrotechnik im ersten Semester. Die Veranstaltung fand mit
+**2 Stunden pro Woche** statt. Vorkenntnisse im Programmieren waren nicht
+erforderlich – allerdings hatten die Teilnehmenden zuvor die Vorlesung
+**Digitale Schaltungen** besucht und wussten daher, wie ein Prozessor intern
+grundsätzlich funktioniert. Genau daran knüpft das Projekt an.
 
 ## Worum geht’s?
 
