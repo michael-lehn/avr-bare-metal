@@ -36,3 +36,16 @@ Jedes Blatt bringt ein neues Element ins Spiel: von Maschinencode über Assemble
 
 👉 Ziel war es, **Schritt für Schritt ein funktionsfähiges Spiel mit Hardware-Anbindung zu entwickeln** – und dabei die nötigen Werkzeuge und Konzepte ganz praktisch kennenzulernen.
 
+## Lizenz
+
+Die Inhalte dieses Repositories stehen – sofern nicht anders angegeben – unter der Lizenz  
+[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Das bedeutet:
+- Du darfst die Materialien frei verwenden, teilen und anpassen – auch für kommerzielle Zwecke.
+- Voraussetzung ist, dass du den ursprünglichen Urheber nennst (z. B. durch Verweis auf dieses Repository) und deine abgeleiteten Werke unter derselben Lizenz veröffentlichst.
+
+Bitte beachte: Einzelne Quelltexte oder externe Tools in diesem Projekt können ggf. eigenen Lizenzen unterliegen. Diese sind dann separat gekennzeichnet.
+
+
+
