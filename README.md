@@ -21,7 +21,7 @@ Game-Controller mit Mikrocontroller-Steuerung** bedienen lässt.
 
 👉 Hier ein Video mit dem Endergebnis:
 Ein hybrides **Breakout-SpaceInvaders-Spiel**, gesteuert über einen ATmega328P,
-der einen **BNO055** (Lage- und Beschleunigungssensor) sowie mehrere **Taster**
+der einen **BNO055** (Lage- und Beschleunigungssensor) sowie einen **Taster**
 ausliest.
 
 [Video anschauen](https://github.com/user-attachments/assets/ed1db76c-fee3-4abe-83a2-a54e4aef0f5a)
