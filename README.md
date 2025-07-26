@@ -24,3 +24,14 @@ der einen **BNO055** (Lage- und Beschleunigungssensor) sowie mehrere **Taster**
 ausliest.
 
 [Video anschauen](https://github.com/user-attachments/assets/ed1db76c-fee3-4abe-83a2-a54e4aef0f5a)
+
+## Laborblätter
+
+Im Unterverzeichnis [`doku`](./doku) findest du **insgesamt 11 Laborblätter**, die die Entwicklung des Projekts über das Semester hinweg begleiten.  
+Geplant waren eigentlich 14 Einheiten – **wegen Feiertagen mussten leider 3 Termine entfallen**.
+
+Die Blätter heißen bewusst *Laborblätter* – denn es geht nicht nur ums Programmieren, sondern auch um **Elektronik, Mikrocontroller, Messen mit dem Oszilloskop** und vieles mehr.  
+Jedes Blatt bringt ein neues Element ins Spiel: von Maschinencode über Assembler und C bis hin zu seriellem Input, Game-Logik in Python und der Steuerung über einen selbstgebauten Controller.
+
+👉 Ziel war es, **Schritt für Schritt ein funktionsfähiges Spiel mit Hardware-Anbindung zu entwickeln** – und dabei die nötigen Werkzeuge und Konzepte ganz praktisch kennenzulernen.
+
