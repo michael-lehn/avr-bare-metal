@@ -36,6 +36,9 @@ Jedes Blatt bringt ein neues Element ins Spiel: von Maschinencode über Assemble
 
 👉 Ziel war es, **Schritt für Schritt ein funktionsfähiges Spiel mit Hardware-Anbindung zu entwickeln** – und dabei die nötigen Werkzeuge und Konzepte ganz praktisch kennenzulernen.
 
+Zusätzlich zu den Laborblättern gibt es das Dokument [`Blinkende_LED_bare_metal.pdf`](./doku/Blinkende_LED_bare_metal.pdf), das zwar kein klassisches Skript ist, aber vertiefende Hintergrundinformationen zu den Themen der **ersten drei Laborblätter** bietet – insbesondere zur **Programmierung des Mikrocontrollers auf Maschinencode- und Assembler-Ebene**.
+
+
 ## Lizenz
 
 Die Inhalte dieses Repositories stehen – sofern nicht anders angegeben – unter der Lizenz  
