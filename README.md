@@ -4,7 +4,7 @@
 an der Universität Ulm**
 
 Diese Repository begleitet ein **wöchentliches, unbenotetes Praktikum** für
-Studierende der Elektrotechnik im ersten Semester. Die Veranstaltung fand mit
+Studierende der Elektrotechnik im dritten Semester. Die Veranstaltung fand mit
 **2 Stunden pro Woche** statt. Vorkenntnisse im Programmieren waren nicht
 erforderlich – allerdings hatten die Teilnehmenden zuvor die Vorlesung
 **Digitale Schaltungen** besucht und wussten daher, wie ein Prozessor intern
